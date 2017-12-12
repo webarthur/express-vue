@@ -1,3 +1,1 @@
-declare function init(options: Object): void;
-
-export = init;
+export declare function init(options: Object): void;
