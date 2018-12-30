@@ -105,10 +105,10 @@ In your route, assuming you have a main.vue
 
 ```js
 router.get('/', (req, res, next) => {
-    const data: {
+    const data = {
         otherData: 'Something Else'
     };
-    req.vueOptions: {
+    req.vueOptions = {
         head: {
             title: 'Page Title',
             metas: [
